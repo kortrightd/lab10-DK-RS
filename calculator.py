@@ -1,13 +1,13 @@
+# https://github.com/kortrightd/lab10-DK-RS.git
+# Partner 1: Daniel Kortright
+# Partner 2: Ranjith Saravanan
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-
-# https://github.com/kortrightd/lab10-DK-RS.git
-# Partner 1: Daniel Kortright
-# Partner 2: Ranjith Saravanan
 
 import math
 

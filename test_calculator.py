@@ -1,9 +1,9 @@
-import unittest
-from calculator import *
-
 # https://github.com/kortrightd/lab10-DK-RS.git
 # Partner 1: Daniel Kortright
 # Partner 2: Ranjith Saravanan
+
+import unittest
+from calculator import *
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
