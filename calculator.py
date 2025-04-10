@@ -27,7 +27,7 @@ def divide(a, b):
 
 
 def logarithm(a, b):
-    if a <=:
+    if a <= 0:
         raise ValueError
     return math.log(b, a)
 
