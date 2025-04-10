@@ -8,6 +8,7 @@ import math
 
 
 # First example
+# Dummy update
 def square_root(a):
     if a < 0:
         raise ValueError
