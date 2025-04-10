@@ -8,7 +8,6 @@ import math
 
 
 # First example
-<<<<<<< HEAD
 def square_root(a):
     if a < 0:
         raise ValueError
@@ -26,11 +25,11 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
-def divide(a, b):
-    if a == 0:
-        raise ZeroDivisionError
-    else:
-        return a / b
+# def divide(a, b):
+    # if a == 0:
+        # raise ZeroDivisionError
+    # else:
+        # return a / b
 
 def logarithm(a, b):
     if a <= 0:
@@ -40,8 +39,7 @@ def logarithm(a, b):
 def exponent(a, b):
     return a ** b
 
-=======
-import math
+#import math
 
 def add(a, b): 
     return a+b
@@ -63,7 +61,6 @@ def log(a, b):
     return math.log(b, a)
     
 def exp(a, b):
->>>>>>> 12f8f37fc97d5593db28b48eb91a96cddbed1ce0
     return a ** b
 
 
