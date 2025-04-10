@@ -59,7 +59,7 @@ def div(a, b):
     return b / a
 
 def log(a, b):
-    if a <= :
+    if a <= 1:
         raise ValueError
     return math.log(b, a)
     
