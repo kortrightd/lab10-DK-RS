@@ -1,6 +1,10 @@
 import unittest
 from calculator import *
 
+# https://github.com/kortrightd/lab10-DK-RS.git
+# Partner 1: Daniel Kortright
+# Partner 2: Ranjith Saravanan
+
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
     def test_add(self): # 3 assertions
@@ -17,12 +21,12 @@ class TestCalculator(unittest.TestCase):
     ######## Partner 1
     def test_multiply(self): # 3 assertions
         self.assertEqual(multiply(2,3),6)
-        self.assertEqual(multiply(10,4),0)
+        self.assertEqual(multiply(10,4),40)
         self.assertEqual(multiply(-1,-2),2)
 
     def test_divide(self): # 3 assertions
-        self.assertAlmostEqual(div(6,3),2)
-        self.assertAlmostEqual(div(10,4),2.5)
+        self.assertAlmostEqual(div(3,6),2)
+        self.assertAlmostEqual(div(4,10),2.5)
         self.assertAlmostEqual(div(200,200),1)
 
 
@@ -37,7 +41,7 @@ class TestCalculator(unittest.TestCase):
     #     fill in code
 
     def test_logarithm(self): # 3 assertions
-        self.assertEqual(log(10,1000),3)
+        self.assertEqual(round(log(10,1000)),3)
         self.assertEqual(log(2,16),4)
         self.assertEqual(log(2,1),0)
 
