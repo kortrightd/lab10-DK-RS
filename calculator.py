@@ -32,7 +32,6 @@ def divide(a, b):
     else:
         return a / b
 
-
 def logarithm(a, b):
     if a <= 0:
         raise ValueError
